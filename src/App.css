@@ -1,0 +1,90 @@
+.body{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 4px;
+    line-height: 3rem;
+    font-weight: bold;
+    margin: auto;
+    font-size: large;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 2rem;
+    border-bottom: black 1px solid;
+}
+.search{
+    margin-top: 2rem;
+}
+
+input,button{
+    min-height: 2rem;
+    font-size: large;
+    border-radius: 10px white;
+}
+input{
+    margin-right: 1rem;
+    
+}
+button{
+    background-color: #55c2da;
+    cursor: pointer;
+}
+.Profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Profile--img{
+    width: 40%;
+    margin-top: 1rem;
+
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+a{
+    color: #191970;
+    font-size: larger;
+}
+a:active{
+    color: red;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:576px) {
+    .body{
+        height: 100vh;
+    }
+    .App{
+        width: 60%;
+    }
+    .name{
+        width: 120%;
+       
+        flex-direction: row;
+        justify-content:space-evenly;
+        
+    }
+    a{font-size:larger;}
+    
+}
